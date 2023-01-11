@@ -1,7 +1,8 @@
+import { useMemo } from "react"
 import { juanes, juanImages } from "../data/juanes"
 
 const Answer = () => {
-  const juan = juanes[Math.floor(Math.random() * juanes.length)]
+  const juan = useMemo(() => juanes[Math.floor(Math.random() * juanes.length)], [])
 
   const handleClick = () => {}
 
