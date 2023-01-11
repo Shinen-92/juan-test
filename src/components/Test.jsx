@@ -11,10 +11,14 @@ const Test = () => {
   const [current, setCurrent] = useState(0)
   const [calculating, setCalculating] = useState(false)
   const [invert, setInvert] = useState(false)
+  const [showAnswer, setShowAnswer] = useState(false)
 
   const handleSelect = (choice) => {
     if (current >= questions.length - 1) {
       setCalculating(true)
+      window.setTimeout(() => {
+        setShowAnswer(true)
+      }, 1000)
       if (choice === 'Love Live') {
         const audios = ref.current.querySelectorAll('audio')
         audios[0].volume = 1
@@ -35,7 +39,7 @@ const Test = () => {
   return (
     <div className="bg-white p-4 rounded-xl h-[800px] max-h-full w-[400px] max-w-full text-center flex flex-col">
       <p className="text-neutral-500 font-thin text-sm mb-4 flex-shrink-0">
-        { calculating ? 'Calculando...' : `Pregunta ${ current + 1 } de ${ questions.length }`}
+        { showAnswer ? 'Eres...' : calculating ? 'Calculando...' : `Pregunta ${ current + 1 } de ${ questions.length }`}
       </p>
       { calculating ? null : questions.map((question, index) => (
         <div
@@ -49,7 +53,14 @@ const Test = () => {
         </div>
       ))}
       {
-        (calculating) && (
+        (calculating && !showAnswer) && (
+          <div className="flex-grow flex items-center justify-center">
+            <div className="animate-spin text-2xl font-bold">Cargando</div>
+          </div>
+        )
+      }
+      {
+        showAnswer && (
           <div className="flex-grow min-h-0">
             <Answer />
           </div>
