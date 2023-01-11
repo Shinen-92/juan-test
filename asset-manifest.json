@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/juan-test/static/css/main.cbe9a74d.css",
-    "main.js": "/juan-test/static/js/main.923bfabb.js",
+    "main.js": "/juan-test/static/js/main.47f0c739.js",
     "static/js/787.d30787f0.chunk.js": "/juan-test/static/js/787.d30787f0.chunk.js",
     "static/media/speedjuan.png": "/juan-test/static/media/speedjuan.2aa0b5e17b27f86d0f68.png",
     "static/media/juankiller.png": "/juan-test/static/media/juankiller.632dcb7560f25f6447b1.png",
@@ -17,11 +17,11 @@
     "static/media/juanstreamer.jpg": "/juan-test/static/media/juanstreamer.1fe25b5b74f795176604.jpg",
     "index.html": "/juan-test/index.html",
     "main.cbe9a74d.css.map": "/juan-test/static/css/main.cbe9a74d.css.map",
-    "main.923bfabb.js.map": "/juan-test/static/js/main.923bfabb.js.map",
+    "main.47f0c739.js.map": "/juan-test/static/js/main.47f0c739.js.map",
     "787.d30787f0.chunk.js.map": "/juan-test/static/js/787.d30787f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbe9a74d.css",
-    "static/js/main.923bfabb.js"
+    "static/js/main.47f0c739.js"
   ]
 }
