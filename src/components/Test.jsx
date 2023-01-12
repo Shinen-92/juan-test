@@ -37,7 +37,7 @@ const Test = () => {
   }
 
   return (
-    <div className="bg-white p-4 rounded-xl h-[800px] max-h-full w-[400px] max-w-full text-center flex flex-col">
+    <div className="bg-white p-4 rounded-xl max-h-full w-[400px] max-w-[90%] text-center flex flex-col">
       <p className="text-neutral-500 font-thin text-sm mb-4 flex-shrink-0">
         { showAnswer ? 'Eres...' : calculating ? 'Calculando...' : `Pregunta ${ current + 1 } de ${ questions.length }`}
       </p>
@@ -54,7 +54,7 @@ const Test = () => {
       ))}
       {
         (calculating && !showAnswer) && (
-          <div className="flex-grow flex items-center justify-center">
+          <div className="flex-grow flex items-center justify-center h-40">
             <div className="animate-spin text-2xl font-bold">Cargando</div>
           </div>
         )

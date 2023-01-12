@@ -1,15 +1,33 @@
 export const questions = [
   {
-    question: 'Cual te atrae mas?',
+    question: 'Estas en una isla desierta, cual de las siguientes te llevarias contigo?',
     choices: [
       'Victoria epica masgisJuan',
       'Winner winner Juan Dinner',
-      'Opcion 3',
+      'Bruh',
       'Opcion 4'
     ]
   },
   {
-    question: 'Cual es tu anime favorito?',
+    question: 'Cual es tu color favorito?',
+    choices: [
+      'Rojo',
+      'Magenta',
+      'Granate',
+      'Guayando'
+    ]
+  },
+  {
+    question: '¿Cuál de las siguientes palabras describe mejor tu personalidad?',
+    choices: [
+      'Juandarino',
+      'Juandil',
+      'Juancarlo',
+      'Juantastico'
+    ]
+  },
+  {
+    question: 'Cual de los siguientes es tu anime favorito?',
     choices: [
       'Dos hombres y medio',
       'Shrek 2',
