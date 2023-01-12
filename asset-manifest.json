@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/juan-test/static/css/main.a9556112.css",
-    "main.js": "/juan-test/static/js/main.ee0b3841.js",
+    "main.css": "/juan-test/static/css/main.22974bb0.css",
+    "main.js": "/juan-test/static/js/main.bac13460.js",
     "static/js/787.d30787f0.chunk.js": "/juan-test/static/js/787.d30787f0.chunk.js",
     "static/media/camisa.mp3": "/juan-test/static/media/camisa.a639955ce64ac9f723a2.mp3",
     "static/media/speedjuan.png": "/juan-test/static/media/speedjuan.2aa0b5e17b27f86d0f68.png",
@@ -19,12 +19,12 @@
     "static/media/donjuan.jpg": "/juan-test/static/media/donjuan.a2e3e4e5a85186a3fd80.jpg",
     "static/media/juanstreamer.jpg": "/juan-test/static/media/juanstreamer.1fe25b5b74f795176604.jpg",
     "index.html": "/juan-test/index.html",
-    "main.a9556112.css.map": "/juan-test/static/css/main.a9556112.css.map",
-    "main.ee0b3841.js.map": "/juan-test/static/js/main.ee0b3841.js.map",
+    "main.22974bb0.css.map": "/juan-test/static/css/main.22974bb0.css.map",
+    "main.bac13460.js.map": "/juan-test/static/js/main.bac13460.js.map",
     "787.d30787f0.chunk.js.map": "/juan-test/static/js/787.d30787f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9556112.css",
-    "static/js/main.ee0b3841.js"
+    "static/css/main.22974bb0.css",
+    "static/js/main.bac13460.js"
   ]
 }
